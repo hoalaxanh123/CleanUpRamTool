@@ -1,0 +1,12 @@
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.Form1.resources
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.Properties.Resources.resources
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.csproj.GenerateResource.cache
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.csproj.CoreCompileInputs.cache
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.csprojAssemblyReference.cache
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\bin\Debug\ClearRamTool.exe.config
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\bin\Debug\ClearRamTool.exe
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\bin\Debug\ClearRamTool.pdb
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.exe
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\obj\Debug\ClearRamTool.pdb
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\bin\Debug\ClearRamTool.exe.CodeAnalysisLog.xml
+C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\bin\Debug\ClearRamTool.exe.lastcodeanalysissucceeded

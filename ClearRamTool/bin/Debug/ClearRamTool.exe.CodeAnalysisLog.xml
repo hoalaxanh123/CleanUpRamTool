@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\enterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool\bin\Debug\ClearRamTool.exe">
+   <Modules>
+    <Module Name="clearramtool.exe">
+     <Namespaces>
+      <Namespace Name="ClearRamTool">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ExecuteCommandSync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2019-08-14 14:19:37Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'Process.StandardOutput.get()' which has a LinkDemand. By making this call, 'Process.StandardOutput.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'Process.Start()' which has a LinkDemand. By making this call, 'Process.Start()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'Process.StartInfo.set(ProcessStartInfo)' which has a LinkDemand. By making this call, 'Process.StartInfo.set(ProcessStartInfo)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'ProcessStartInfo.CreateNoWindow.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.CreateNoWindow.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'ProcessStartInfo.RedirectStandardOutput.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.RedirectStandardOutput.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'ProcessStartInfo.UseShellExecute.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.UseShellExecute.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="25">'Form1.ExecuteCommandSync(string)' calls into 'ProcessStartInfo.Verb.set(string)' which has a LinkDemand. By making this call, 'ProcessStartInfo.Verb.set(string)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSync(string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecuteCommandSyncSilent(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2019-08-14 14:19:37Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'Process.StandardOutput.get()' which has a LinkDemand. By making this call, 'Process.StandardOutput.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'Process.Start()' which has a LinkDemand. By making this call, 'Process.Start()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'Process.StartInfo.set(ProcessStartInfo)' which has a LinkDemand. By making this call, 'Process.StartInfo.set(ProcessStartInfo)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'ProcessStartInfo.CreateNoWindow.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.CreateNoWindow.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'ProcessStartInfo.RedirectStandardOutput.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.RedirectStandardOutput.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'ProcessStartInfo.UseShellExecute.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.UseShellExecute.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\Cyber\source\repos\ClearRamTool\ClearRamTool" File="Form1.cs" Line="54">'Form1.ExecuteCommandSyncSilent(string)' calls into 'ProcessStartInfo.Verb.set(string)' which has a LinkDemand. By making this call, 'ProcessStartInfo.Verb.set(string)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'&#xD;&#xA;   -&gt;'Form1.ExecuteCommandSyncSilent(string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ClearRamTool.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2019-08-14 14:19:37Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>Do not indirectly expose methods with link demands</Name>
+   <Description>Do not wrap a method protected by a LinkDemand with a method that does not perform a security check. A LinkDemand checks the permissions of the immediate caller rather than checking the permissions of all callers in the call stack. In this case, the permissions of the wrapper method will be checked. If the wrapper method does not, itself, check the permissions of callers higher in the call stack, malicious code might be able to execute the wrapped function even though it lacks permission to do so.</Description>
+   <Resolution Name="Default">{0} calls into {1} which has a LinkDemand. By making this call, {1} is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
